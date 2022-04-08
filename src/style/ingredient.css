@@ -1,0 +1,145 @@
+
+.Ingredient-title{
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    margin-bottom: 2rem;
+
+}
+.Ingredient-crust{
+    margin-bottom: 2.3rem;
+}
+.Title-Crust{
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 2rem;
+}
+.SubIngredient{
+    display: flex;
+    flex-direction: column;
+}
+.SubCrust1{
+    display: flex;
+    flex-direction: row;
+}
+.SubIngre{
+    color: #333;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 554px;
+    padding-bottom: 0.8rem;
+}
+
+.Box{
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+.Main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Cake{
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.More{
+    background: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 200px;
+    
+}
+.Container-more{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #bdbdbd;
+    margin-bottom: 0.25rem;
+}
+.Description{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333;
+}
+.contentOne{
+    /* margin-bottom: 1.25rem; */
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.contentOneYield{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+
+}
+.DescriptionYields{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #f2994a;
+}
+
+@media (max-width: 320px){
+    .Main-container{
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    .More{
+        background: none;
+        box-shadow: none;
+        flex-direction: row;
+        border-radius: unset;
+        flex-wrap: wrap;
+        height: unset;
+        width: unset;
+    
+    }
+    .Box{
+        width: 40px;
+        height: 20px;
+    }
+    .SubIngre{
+        font-size: 12px;
+    }
+    .contentOne{
+        margin-right: 0.55rem;
+    }
+    .contentOneYield{
+        margin-right: 0.55rem;
+        /* margin-bottom: 2rem; */
+    }
+}

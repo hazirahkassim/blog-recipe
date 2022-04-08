@@ -1,0 +1,50 @@
+
+.MTitle{
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin-top: 3.25rem;
+}
+.MSubTitle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.75rem;
+    align-items: flex-start;
+}
+.SubTitle{
+    width: 592px;
+    margin-left: 1.5rem;
+    color: #4f4f4f;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 2.6rem;
+}
+.HImage  {
+    width: 969px;
+    height: 444px;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+   
+}
+@media (max-width: 320px){
+    .MTitle{
+        font-size: 20px;
+    }
+    .HImage{
+        width: 290px;
+        height: 200.83px;
+        margin-bottom: 2rem;
+    }
+    .SubTitle{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .Main-header{
+        margin-left: 40px;
+    }
+}
